@@ -1,0 +1,39 @@
+input
+{   color: whitesmoke;
+   outline:none;
+
+}
+
+body
+{
+    margin:0px;
+    background-repeat: no-repeat;
+    background-image: url("i.jpg");
+
+}
+
+fieldset
+{
+    border: 0.5px groove;
+}
+#next
+{
+margin-left:180px;
+
+}
+.img{
+
+    margin-top:40px;
+
+}
+
+.form1{
+
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+.i2{
+    margin-top:500px;
+
+}

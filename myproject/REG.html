@@ -1,0 +1,187 @@
+<html>
+
+
+
+<link rel="stylesheet" href="style.css"/>
+
+
+
+	<script src="scratch.js">
+	</script>
+
+</head>
+
+<body bgcolor=#D0D3D4 text=black> 
+
+<div class="header">
+
+	<img class="img1" src="SLIIT.png" width="90px" height="90px" align=left />
+
+	<nav class="head">
+		
+		
+		<a href="signup.html">Staff</a>
+		<a href="REG.html">Register</a>
+	
+		
+	</nav>
+</br>
+	<p class="p1" align=right><strong>SLIIT LIBRARY</strong></p>
+
+	
+	<div class="nav" >
+	<nav >
+	
+	<a href="http://www.sliit.lk/" >Home</a>
+	<a href="http://www.sliit.lk/" >About Us </a>	
+	<a href="http://www.sliit.lk/" >Membership </a>
+	<a href="http://www.sliit.lk/" >Search</a>	
+	<a href="http://www.sliit.lk/" >New Arrivals </a>	
+	<a href="http://www.sliit.lk/" >Staff </a>
+
+
+	</nav>
+	</div>
+
+</div>
+	
+<div class="links">
+	<font size=3>
+	<h3>Categories</h3>
+	
+	
+	    <li><a href="http://www.sliit.lk/">OPAC Search</a></li>
+		<li><a href="http://www.sliit.lk/">New Arrivals</a></li>
+		<li><a href="http://www.sliit.lk/">How to Become a Member</a></li>
+		<li><a href="http://www.sliit.lk/">Central Bank of Srilanka</a></li>
+		<li><a href="http://www.sliit.lk/">e-Repository</a></li>
+		<li><a href="http://www.sliit.lk/">Dictionary</a></li>
+		<li><a href="http://www.sliit.lk/">Library Policies</a></li>
+		<li><a href="http://www.sliit.lk/">University of Moratuwa</a></li>
+
+		
+	<h3>E-Resources </h3></br>
+		<h5>Find the Journals</h5></br>
+		<li><a href="http://www.sliit.lk/">Online Journals</a></li><br>
+		<h5>Access the available</h5> </br><h5>database</h5></br></br>
+		<li><a href="http://www.sliit.lk/">Databases</a></li><br>
+		<h5>Getting start with research ?</h5></br></br>
+		<li><a href="http://www.sliit.lk/">Research Papers</a></li><br>
+		<h5>What is done already ?</h5></br></br>
+		<li><a href="http://www.sliit.lk/">Thesis Dissertaion</a></li><br>
+		<h5>Help !!!</h5></br></br>
+		<li><a href="http://www.sliit.lk/">Library Guide</a></li><br>
+		<h5>Turnitin</h5></br></br>
+		<li><a href="http://www.sliit.lk/">Turnitin</a></li><br>
+		
+	
+	</font>
+	</div>
+	
+	
+	<div class="vertical">
+
+	<img class="img2"src="image.jpg" width="958px" height="658px"/>
+	</br>
+	</br>
+	<h2><strong><center>Application for Library Membership-Student</center></strong></h2>
+	</div>
+	
+    <form method="post" name="MyForm"  onsubmit="return formValidate()" action="display.php">
+		<table align="center" >
+	    <tr>
+	   <td>First Name:</td>
+	   <td><input id="text1" type="text" name="fname"  ></td>
+	  </tr>
+	  
+	  <tr>
+	  <td>Status:</td>
+
+			<td>
+				<select id="select" onchange="ValidateSelect('select')">
+					<option >Mr.</option>
+					<option >Mrs.</option>
+					<option>Ms.</option>
+				</select>
+			</td>
+			</tr>
+		 <tr>
+			 <td>User Name:</td>
+			 <td><input type="text" id="uname"  name="uname"></td>
+		 </tr>
+
+		 <tr>
+			 <td>Password:</td>
+			 <td><input type="password" id="pword"  maxlength="8" name="pword" ></td>
+		 </tr>
+
+		 <tr>
+			 <td>Confirm Password:</td>
+			 <td><input type="password" id="pword1"  maxlength="8" name="pword1" ></td>
+		 </tr>
+
+
+		<tr>
+		 <td>Student Reg.No:</td>
+		 <td><input id="regno "type="text" name="regno"  maxlength="10" value="Start with IT or BM or EN " ></td>
+		</tr>
+		
+		<tr>
+		 <td>Entitle Course:</td>
+			<td>
+				<select id="select1" onchange="ValidateSelect('select1')" name="course">
+					<option >IT</option>
+					<option >BM</option>
+					<option>EN</option>
+				</select>
+			</td>
+		</tr>
+
+		
+		<tr>
+		 <td>Postal Address:</td>
+		 <td><input id="address" type="text" name="address"></td>
+		</tr>
+		
+		<tr>
+		 <td>Contact Mobile  Number:</td>
+		 <td><input id="nm" type="text"  name="pno" ></td>
+		</tr>
+		<tr>
+		<td>Land Phone Number</td>
+		<td><input id="nn" type="text"  name="phn"></td>
+		</tr>
+			
+		
+		<tr>
+		<td>E-mail Address:</td>
+		<td><input id="email" type="email"  name="email" ></td>
+		</tr>
+		
+		<tr>
+		<td>Deposit Status:</td>
+		<td><input id="dep" type="radio" name="dep" value="three" checked="true
+		">3000
+		<input id="dep1" type="radio" name="dep" value="six">6000
+		</td>
+		</tr>
+		
+		<tr>
+		 <td><input id="submt" type="submit" value="Submit"></td>
+		  <td><input id="rest"  type="reset" value="Reset"></td>
+		 </tr>
+	 </table>
+	
+	</form>
+	
+	
+	
+	
+	<div class="footer">
+	
+	Copyright @ Srilanka Institute of Information Technology,2017-All rights Reserved
+	
+	</div>
+</body>
+</html>
+	

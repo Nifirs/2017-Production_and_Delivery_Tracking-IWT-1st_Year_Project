@@ -1,0 +1,59 @@
+.heading{
+
+    margin-top: -12px;
+    margin-left: 0px;
+
+
+
+
+
+}
+#i1{
+
+    border-radius: 20px;
+    width:100%;
+}
+a{
+
+    text-decoration: none;
+}
+
+.tbl  {
+
+    margin-top: 0px;
+    margin-left: 850px;
+
+}
+
+table td{
+    border-radius: 5px;
+
+    margin-left:-1px;
+
+    border-spacing: 2px;
+    padding:23px 7px 10px 9px;
+    margin-top:0px;
+    background:dimgrey;
+
+}
+a{
+    font-size: 20px;
+    color:white;
+}
+a:hover{
+    color: black;
+
+}
+table td:hover{
+
+    background-color:lightcyan;
+
+}
+table td:hover a{
+    color:black;
+}
+
+.para{
+    margin-top: 0;
+
+}

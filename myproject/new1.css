@@ -1,0 +1,56 @@
+input
+{   color: black;
+    outline:none;
+
+}
+
+body
+{
+    margin:0px;
+
+
+
+}
+
+fieldset
+{
+    border: 0.5px groove;
+}
+
+
+#next
+{
+    margin-left:180px;
+    cursor:pointer;
+margin-top:50px;
+
+}
+
+
+.form1 form fieldset{
+
+    margin-top: 0px;
+    margin-left: 150px;
+
+}
+
+
+#reset{
+
+    cursor:pointer;
+margin-top: -60px;
+
+}
+#reset1{
+
+    cursor:pointer;
+margin-top: 120px;
+
+}
+
+#next1{
+
+    cursor:pointer;
+    margin-top: 120px;
+
+}

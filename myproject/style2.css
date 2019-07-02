@@ -1,0 +1,51 @@
+body{
+    margin:0px;
+
+
+}
+
+
+form{
+
+    background-color:lightgrey;
+    height: 40%;
+
+
+}
+#p1{
+    margin-left:5px;
+
+
+
+}
+
+#btn1{
+    background-color:blue;
+    margin-left:5px;
+    border:3px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    width:10%;
+    height: 10%;
+}
+#rest1{
+
+    background-color:blue;
+    margin-left:150px;
+    border:3px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    width:10%;
+    height: 10%;
+}
+#due{
+    border-color: transparent;
+    margin-left:118.5px;
+    width:40%;
+}
+
+#today{
+    border-color: transparent;
+    margin-left:200px;
+    width:40%;
+}
